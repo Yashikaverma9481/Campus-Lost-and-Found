@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Items - Campus Lost & Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="form-title">Browse Items</h2>
+    <p class="form-intro">
+        Browse through reported lost and found items on campus.
+    </p>
+    <div class="browse-tools">
+        <div class="filter-box">
+            <select id="itemFilter">
+                <option>All Items</option>
+                <option>Lost Items</option>
+                <option>Found Items</option>
+            </select>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search for an item">
+            <button type="button" id="searchButton">Search</button>
+        </div>
+    </div>
+    <div class="items-container" id="itemsContainer">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

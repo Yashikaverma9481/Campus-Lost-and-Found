@@ -1,0 +1,59 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Report Lost Item - Campus Lost & Found</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body class="report-page">
+            <h2 class="form-title">Report a Lost Item</h2>
+            <p class="form-intro">
+                Please provide as much information as possible about the lost item.
+            </p>
+            <form class="lost-form">
+                <div>
+                    <label>Item Name:</label>
+                    <input type="text" placeholder="e.g. Black Wallet" required>
+                </div>
+
+                <div>
+                    <label>Category:</label>
+                    <input type="text" placeholder="e.g. Electronics, ID Card, Books" required>
+                </div>
+
+                <div>
+                    <label>Item Color:</label>
+                    <input type="text" placeholder="e.g. Black,Blue" required>
+                </div>
+
+                <div>
+                    <label>Date Lost:</label>
+                    <input type="date" required>
+                </div>
+
+                <div>
+                    <label>Location</label>
+                    <input type="text" placeholder="e.g. Library, cafeteria" required>
+                </div>
+
+                <div>
+                    <label>Description:</label>
+                    <textarea placeholder="e.g. Black leather wallet with college ID inside" required></textarea>
+                </div>
+
+                <div>
+                    <label>Item Image</label>
+                    <input type="file" id="itemImage" accept="image/*" required>
+                </div>
+
+                <div>
+                    <label>Contact Information</label>
+                    <input type="text" placeholder="e.g. 817844XXXX" required>
+                </div>
+
+                <button type="submit">Submit Report</button>
+            </form>
+            <script src="script.js"></script>
+        </body>
+        </html>
